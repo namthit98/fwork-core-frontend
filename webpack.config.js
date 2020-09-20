@@ -96,7 +96,7 @@ module.exports = function (_env, argv) {
       }),
       new HtmlReplaceWebpackPlugin({
         pattern: "/assets",
-        replacement: env.PROJECT_CODE ? `${env.PROJECT_CODE.toLowerCase()}/assets` : '/assets',
+        replacement: env.PROJECT_CODE && isDevelopment ? `${env.PROJECT_CODE.toLowerCase()}/assets` : '/assets',
       }),
     ].filter(Boolean),
     optimization: {
