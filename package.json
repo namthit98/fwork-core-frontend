@@ -13,7 +13,7 @@
     "clean": "rimraf build",
     "prebuild": "yarn clean",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development"
+    "dev": "webpack-dev-server --mode development"
   },
   "dependencies": {
     "react": "^16.13.1",
