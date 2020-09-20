@@ -16,8 +16,10 @@
     "dev": "webpack-dev-server --mode development"
   },
   "dependencies": {
+    "fwork-components": "git+https://github.com/namthit98/fwork-components.git",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
